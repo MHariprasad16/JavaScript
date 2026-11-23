@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+#outer {
+  border: 2px solid black;
+  background: yellow;
+  height: 400px;
+  width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#inner {
+  border: 2px solid black;
+  background: rgb(76, 16, 132);
+  height: 200px;
+  width: 200px;
+}
